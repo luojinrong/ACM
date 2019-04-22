@@ -1,0 +1,3 @@
+﻿  A.cpp
+d:\study\acm\eoj\2019-1\1月月赛\1月月赛\a.cpp(4): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  1月月赛.vcxproj -> D:\study\ACM\eoj\2019-1\1月月赛\Debug\1月月赛.exe
