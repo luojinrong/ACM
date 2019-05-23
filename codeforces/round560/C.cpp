@@ -10,7 +10,7 @@ int main(){
 	cout.tie(0);
 	cin>>n;
 	for(int i=0;i<n;i++){
-		tmp=getchar();
+		cin >> tmp;
 		if(s.size()%2==0){
 			s.append(&tmp);
 		}
