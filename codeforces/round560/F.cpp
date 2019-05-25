@@ -3,7 +3,7 @@ using namespace std;
 typedef long long ll;
 const ll maxn(2e5+5);
 ll order[maxn],n,m,ans,ordered[maxn],total,buy;
-vector<ll> v[maxn<<1];
+vector<ll> v[maxn<<1];//因为最后答案的最大值可以到total的两倍，所以要开两倍的空间，否则会RE
 
 bool check(ll money){
 	buy=0;
